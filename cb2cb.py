@@ -16,10 +16,11 @@ parser.add_argument('fq', help="The first question for the discussion")
 args = parser.parse_args()  
 statement = str(args.fq)
 
-lang_list = ['af', 'ar', 'bn', 'ca', 'cs', 'cy', 'da', 'de', 'el', 'en', 'en-au', 'en-uk', 'en-us', 'eo', 
-'es', 'es-es', 'es-us', 'fi', 'fr', 'hi', 'hr', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ko', 'la', 'lv', 'mk',
-'nl', 'no', 'pl', 'pt', 'pt-br', 'ro', 'ru', 'sk', 'sq', 'sr', 'sv', 'sw', 'ta', 'th', 'tr', 'vi', 'zh', 'zh-cn',
-'zh-tw', 'zh-yue']
+lang_list = ['af', 'ar', 'bn', 'ca', 'cs', 'cy', 'da', 'de', 'el', 'en', 
+'en-au', 'en-uk', 'en-us', 'eo', 'es', 'es-es', 'es-us', 'fi', 'fr', 'hi',
+'hr', 'hu', 'hy', 'id', 'is', 'it', 'ja', 'ko', 'la', 'lv', 'mk','nl', 'no',
+'pl', 'pt', 'pt-br', 'ro', 'ru', 'sk', 'sq', 'sr', 'sv', 'sw', 'ta', 'th', 
+'tr', 'vi', 'zh', 'zh-cn','zh-tw', 'zh-yue']
 
 i = 1
 try:
