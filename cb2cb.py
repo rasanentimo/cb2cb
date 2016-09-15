@@ -27,7 +27,7 @@ try:
     while True:
         try:
             lang_detect = detect(statement)
-        except LangDetectException:
+        except:
             lang_detect = 'en'
             pass
         if lang_detect not in lang_list:
